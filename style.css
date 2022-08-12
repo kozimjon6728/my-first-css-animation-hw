@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #28285c;
+}
+.box{
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    background-color: white;
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.card{
+    display: flex;
+    
+    height: 300px;
+    background-color: #c2bfbf;
+    transition: 2s;
+    color: black;
+
+}
+.box:hover .card{
+    transform: translateY(-300px);
+}
+.paragraph{
+    padding: 5px 15px;
+}
+.paragraph a{
+    text-decoration: none;
+}
+.btn{
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+.btn1{
+    width: 180px;
+    height: 30px;
+    border: 2px solid blue;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

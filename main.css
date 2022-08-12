@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #7979fd;
+}
+.card{
+    width: 360px;
+    height: 450px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+.card img{
+    transition-duration: .5s;
+
+}
+.card:hover img{
+    transform: scale(2);
+
+} 
+.smth{
+    text-align: center;
+}
+.cc{
+    color: #7d7dfa;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #323268;
+    color: wheat;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.smth p{
+    color: red;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
